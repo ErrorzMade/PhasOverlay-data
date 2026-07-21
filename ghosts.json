@@ -115,7 +115,7 @@
       "canHunt": [
         "normal"
       ],
-      "tell": "TELLS\n• Base speed of 3.0m/s with no line-of-sight speed-up.\n• Can be slowed by throwing unique items near it during a hunt.\n• Reaches its minimum speed of 0.4m/s once 30 items have been thrown.\n\nBEHAVIORS\n• Slowing is a continuous linear scale, not an on/off state — each thrown item lowers its speed by roughly 3.3% (about 0.087m/s).\n• With no items thrown, it stays at its full 3.0m/s.",
+      "tell": "TELLS\n• Base speed of 3.0m/s with no line-of-sight speed-up.\n• Speed decreases by 0.1m/s per item thrown by players (alive or dead).\n\nBEHAVIORS\n• Base speed returns to 3.0m/s after each hunt attempt.\n• Can reach a minimum speed of 0.4m/s if 26+ items are moved.",
       "speedGraph": {
         "base": 3,
         "max": 3,
