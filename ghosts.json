@@ -99,7 +99,7 @@
     {
       "name": "Deildegast",
       "shortFact": "Slowed by thrown items / No LOS speedup",
-      "speed": "0.4 - 3.0",
+      "speed": "0.4 / 3.0",
       "sanity": "50%",
       "losSpeedup": "No",
       "evidence": [
