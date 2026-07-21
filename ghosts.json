@@ -123,11 +123,6 @@
       },
       "behaviors": [
         {
-          "type": "mark",
-          "prefix": "Tell (Definitive): ",
-          "text": "If it visibly slows down as you throw items near it during a hunt, it is a Deildegast."
-        },
-        {
           "type": "ruleout",
           "prefix": "Tell (Definitive): ",
           "text": "If it clearly speeds up with line-of-sight, it is not a Deildegast."
