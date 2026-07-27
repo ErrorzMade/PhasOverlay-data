@@ -1,7 +1,10 @@
 {
   "schemaVersion": 1,
-  "date": "2026-07-20",
-  "title": "Hide and Seek: Seeker",
-  "friendlyGhost": true,
-  "evidenceGiven": 3
+  "date": "2026-07-27",
+  "title": "Hide and Seek: Hide!",
+  "friendlyGhost": false,
+  "ghostSpeed": 1.0,
+  "evidenceGiven": 3,
+  "mapSize": "medium",
+  "huntDuration": "high"
 }
