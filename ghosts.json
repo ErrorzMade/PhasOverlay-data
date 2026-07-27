@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-21",
+  "updatedAt": "2026-07-27",
   "ghosts": [
     {
-      "name": "Aswang",
+      "name": "Asswang",
       "shortFact": "Max LOS speed in 8.667s",
       "speed": "1.53",
       "sanity": "50%",
       "losSpeedup": "Quicker",
       "evidence": [
+        "D.O.T.S Projector",
         "Freezing Temperatures",
-        "Ghost Writing",
-        "D.O.T.S Projector"
+        "Ghost Writing"
       ],
       "canBe": [
         "slow"
