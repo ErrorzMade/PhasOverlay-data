@@ -30,6 +30,11 @@
           "type": "mark",
           "prefix": "Tell (Definitive): ",
           "text": "If the ghost enters your hiding spot but doesn't kill you and the hunt ends, it's an Aswang."
+        },
+        {
+          "type": "mark",
+          "prefix": "Tell (Definitive): ",
+          "text": "If the ghost moves through salt or a motion sensor during the grace period before the ghost is actually visible, it's an Aswang"
         }
       ]
     },
