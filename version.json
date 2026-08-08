@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "1.1.1",
-  "notes": "Improved onboarding and added system tray support to prevent softlocking if you have no keybind set for the settings window",
+  "version": "1.1.2",
+  "notes": "Fixed a bug that broke difficulty switching from the Evidence Window",
   "url": "https://github.com/ErrorzMade/PhasOverlay/releases/latest"
 }
