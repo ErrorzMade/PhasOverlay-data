@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "date": "2026-08-03",
-  "title": "Frostbitten",
+  "date": "2026-08-10",
+  "title": "Do as I Command",
   "friendlyGhost": false,
-  "ghostSpeed": 0.75,
+  "ghostSpeed": 1,
   "evidenceGiven": 3,
-  "mapSize": "small",
-  "huntDuration": "medium"
+  "mapSize": "large",
+  "huntDuration": "low"
 }
