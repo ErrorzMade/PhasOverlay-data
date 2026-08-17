@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "date": "2026-08-10",
-  "title": "Do as I Command",
+  "date": "2026-08-17",
+  "title": "Tortoise and the Hare: Hare",
   "friendlyGhost": false,
-  "ghostSpeed": 1,
+  "ghostSpeed": 0.5,
   "evidenceGiven": 3,
-  "mapSize": "large",
-  "huntDuration": "low"
+  "mapSize": "medium",
+  "huntDuration": "high"
 }
