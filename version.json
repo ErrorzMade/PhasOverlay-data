@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "1.1.2",
-  "notes": "Fixed a bug that broke difficulty switching from the Evidence Window",
+  "version": "1.2.0",
+  "notes": "Introduced PhasOverlay Link, a new system that lets you sync PhasOverlay with up to 7 other people.",
   "url": "https://github.com/ErrorzMade/PhasOverlay/releases/latest"
 }
