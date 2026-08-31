@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "date": "2026-08-24",
-  "title": "Tortoise and the Hare: Tortoise",
+  "date": "2026-08-31",
+  "title": "Gotta Go Fast!",
   "friendlyGhost": false,
-  "ghostSpeed": 1.5,
+  "ghostSpeed": 1.25,
   "evidenceGiven": 3,
   "mapSize": "medium",
-  "huntDuration": "low"
+  "huntDuration": "high"
 }
