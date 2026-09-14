@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "date": "2026-09-07",
-  "title": "Sanity Survival",
+  "date": "2026-09-14",
+  "title": "Speedrun!",
   "friendlyGhost": false,
   "ghostSpeed": 1,
-  "evidenceGiven": 2,
+  "evidenceGiven": 3,
   "mapSize": "small",
   "huntDuration": "high"
 }
