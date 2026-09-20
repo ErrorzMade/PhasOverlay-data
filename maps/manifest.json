@@ -1,0 +1,12 @@
+{
+    "schemaVersion":  1,
+    "dataVersion":  1,
+    "generated":  "2026-09-20T02:24:36Z",
+    "files":  [
+                  {
+                      "path":  "maps.json",
+                      "size":  55291,
+                      "sha256":  "6e04ec5e8b822302fe3f93f53d58d8375ea5e59b29c574f0bc825236861be7a1"
+                  }
+              ]
+}
