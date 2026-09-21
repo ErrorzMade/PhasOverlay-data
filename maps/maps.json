@@ -1,6 +1,15 @@
 ﻿{
   "schemaVersion": 1,
-  "dataVersion": 1,
+  "dataVersion": 2,
+  "possessions": [
+    { "item": "Ouija Board", "icon": "Images/Icons/Possessions/ouija-board.png" },
+    { "item": "Tarot Cards", "icon": "Images/Icons/Possessions/tarot-cards.png" },
+    { "item": "Voodoo Doll", "icon": "Images/Icons/Possessions/voodoo-doll.png" },
+    { "item": "Music Box", "icon": "Images/Icons/Possessions/music-box.png" },
+    { "item": "Haunted Mirror", "icon": "Images/Icons/Possessions/haunted-mirror.png" },
+    { "item": "Monkey Paw", "icon": "Images/Icons/Possessions/monkey-paw.png" },
+    { "item": "Summoning Circle", "icon": "Images/Icons/Possessions/summoning-circle.png" }
+  ],
   "maps": [
     {
       "name": "42 Edgefield Road",
