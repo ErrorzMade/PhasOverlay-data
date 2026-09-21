@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "date": "2026-09-14",
-  "title": "Speedrun!",
+  "date": "2026-09-21",
+  "title": "Survival of the Fittest",
   "friendlyGhost": false,
   "ghostSpeed": 1,
-  "evidenceGiven": 3,
+  "evidenceGiven": 0,
   "mapSize": "small",
   "huntDuration": "high"
 }
