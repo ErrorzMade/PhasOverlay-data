@@ -1,14 +1,35 @@
-﻿{
+{
   "schemaVersion": 1,
-  "dataVersion": 2,
+  "dataVersion": 3,
   "possessions": [
-    { "item": "Ouija Board", "icon": "Images/Icons/Possessions/ouija-board.png" },
-    { "item": "Tarot Cards", "icon": "Images/Icons/Possessions/tarot-cards.png" },
-    { "item": "Voodoo Doll", "icon": "Images/Icons/Possessions/voodoo-doll.png" },
-    { "item": "Music Box", "icon": "Images/Icons/Possessions/music-box.png" },
-    { "item": "Haunted Mirror", "icon": "Images/Icons/Possessions/haunted-mirror.png" },
-    { "item": "Monkey Paw", "icon": "Images/Icons/Possessions/monkey-paw.png" },
-    { "item": "Summoning Circle", "icon": "Images/Icons/Possessions/summoning-circle.png" }
+    {
+      "item": "Ouija Board",
+      "icon": "Images/Icons/Possessions/ouija-board.png"
+    },
+    {
+      "item": "Tarot Cards",
+      "icon": "Images/Icons/Possessions/tarot-cards.png"
+    },
+    {
+      "item": "Voodoo Doll",
+      "icon": "Images/Icons/Possessions/voodoo-doll.png"
+    },
+    {
+      "item": "Music Box",
+      "icon": "Images/Icons/Possessions/music-box.png"
+    },
+    {
+      "item": "Haunted Mirror",
+      "icon": "Images/Icons/Possessions/haunted-mirror.png"
+    },
+    {
+      "item": "Monkey Paw",
+      "icon": "Images/Icons/Possessions/monkey-paw.png"
+    },
+    {
+      "item": "Summoning Circle",
+      "icon": "Images/Icons/Possessions/summoning-circle.png"
+    }
   ],
   "maps": [
     {
@@ -884,7 +905,78 @@
       "size": "small",
       "overview": "Images/MapOverview/woodwindoverview.jpg",
       "cursedFolder": "Images/Cursed/Woodwind",
-      "floors": []
+      "floors": [
+        {
+          "name": "Ground",
+          "plan": "Images/Plans/woodwind-ground.png",
+          "markers": [
+            {
+              "kind": "powerbox",
+              "item": "Power Box",
+              "x": 0.6524,
+              "y": 0.684,
+              "room": "Kids Area",
+              "image": ""
+            },
+            {
+              "kind": "cursed",
+              "item": "Ouija Board",
+              "x": 0.476,
+              "y": 0.9012,
+              "room": "Games Tent",
+              "image": "Images/Cursed/Woodwind/woodwindboard.jpg"
+            },
+            {
+              "kind": "cursed",
+              "item": "Haunted Mirror",
+              "x": 0.5049,
+              "y": 0.4762,
+              "room": "Kids Area",
+              "image": "Images/Cursed/Woodwind/woodwindmirror.jpg"
+            },
+            {
+              "kind": "cursed",
+              "item": "Monkey Paw",
+              "x": 0.5871,
+              "y": 0.2899,
+              "room": "Lovers Bench",
+              "image": "Images/Cursed/Woodwind/woodwindmonkeypaw.jpg"
+            },
+            {
+              "kind": "cursed",
+              "item": "Music Box",
+              "x": 0.3475,
+              "y": 0.1866,
+              "room": "Yellow Tent",
+              "image": "Images/Cursed/Woodwind/woodwindmusicbox.jpg"
+            },
+            {
+              "kind": "cursed",
+              "item": "Summoning Circle",
+              "x": 0.6263,
+              "y": 0.7329,
+              "room": "Food Tent",
+              "image": "Images/Cursed/Woodwind/woodwindsummoningcircle.jpg"
+            },
+            {
+              "kind": "cursed",
+              "item": "Tarot Cards",
+              "x": 0.2932,
+              "y": 0.4666,
+              "room": "Picnic Area",
+              "image": "Images/Cursed/Woodwind/woodwindtarot.jpg"
+            },
+            {
+              "kind": "cursed",
+              "item": "Voodoo Doll",
+              "x": 0.6824,
+              "y": 0.4062,
+              "room": "Kids Area",
+              "image": "Images/Cursed/Woodwind/woodwindvoodoo.jpg"
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "Bleasdale Farmhouse",
@@ -1158,6 +1250,7 @@
           "name": "2F Left",
           "cursedFolder": "Images/Cursed/BrownstoneRestricted/2FLeft",
           "cursedStem": "schoolrestricted",
+          "sharedCursedImage": "Images/Cursed/BrownstoneRestricted/2FLeft/schoolrestrictedbench.jpg",
           "floors": [
             {
               "name": "Ground",
@@ -1177,7 +1270,7 @@
                   "x": 0.3257,
                   "y": 0.5803,
                   "room": "First Floor Main Corridor",
-                  "image": "Images/Cursed/BrownstoneRestricted/2FLeft/schoolrestrictedmirror.jpg"
+                  "image": "Images/Cursed/BrownstoneRestricted/2FLeft/schoolrestrictedbench.jpg"
                 },
                 {
                   "kind": "cursed",
@@ -1185,7 +1278,7 @@
                   "x": 0.411,
                   "y": 0.5803,
                   "room": "First Floor Main Corridor",
-                  "image": "Images/Cursed/BrownstoneRestricted/2FLeft/schoolrestrictedmonkeypaw.jpg"
+                  "image": "Images/Cursed/BrownstoneRestricted/2FLeft/schoolrestrictedbench.jpg"
                 },
                 {
                   "kind": "cursed",
@@ -1193,7 +1286,7 @@
                   "x": 0.3441,
                   "y": 0.5796,
                   "room": "First Floor Main Corridor",
-                  "image": "Images/Cursed/BrownstoneRestricted/2FLeft/schoolrestrictedmusicbox.jpg"
+                  "image": "Images/Cursed/BrownstoneRestricted/2FLeft/schoolrestrictedbench.jpg"
                 },
                 {
                   "kind": "cursed",
@@ -1201,7 +1294,7 @@
                   "x": 0.361,
                   "y": 0.5788,
                   "room": "First Floor Main Corridor",
-                  "image": "Images/Cursed/BrownstoneRestricted/2FLeft/schoolrestrictedtarot.jpg"
+                  "image": "Images/Cursed/BrownstoneRestricted/2FLeft/schoolrestrictedbench.jpg"
                 },
                 {
                   "kind": "cursed",
@@ -1209,7 +1302,7 @@
                   "x": 0.382,
                   "y": 0.5791,
                   "room": "First Floor Main Corridor",
-                  "image": "Images/Cursed/BrownstoneRestricted/2FLeft/schoolrestrictedvoodoo.jpg"
+                  "image": "Images/Cursed/BrownstoneRestricted/2FLeft/schoolrestrictedbench.jpg"
                 },
                 {
                   "kind": "cursed",
@@ -1217,7 +1310,7 @@
                   "x": 0.3828,
                   "y": 0.5518,
                   "room": "First Floor Main Corridor",
-                  "image": "Images/Cursed/BrownstoneRestricted/2FLeft/schoolrestrictedboard.jpg"
+                  "image": "Images/Cursed/BrownstoneRestricted/2FLeft/schoolrestrictedbench.jpg"
                 }
               ]
             },
@@ -1241,6 +1334,7 @@
           "name": "2F Right",
           "cursedFolder": "Images/Cursed/BrownstoneRestricted/2FRight",
           "cursedStem": "schoolrestricted",
+          "sharedCursedImage": "Images/Cursed/BrownstoneRestricted/2FRight/schoolrestrictedbench.jpg",
           "floors": [
             {
               "name": "Ground",
@@ -1260,7 +1354,7 @@
                   "x": 0.6265,
                   "y": 0.5499,
                   "room": "Second Floor Right Corridor",
-                  "image": "Images/Cursed/BrownstoneRestricted/2FRight/schoolrestrictedboard.jpg"
+                  "image": "Images/Cursed/BrownstoneRestricted/2FRight/schoolrestrictedbench.jpg"
                 },
                 {
                   "kind": "cursed",
@@ -1268,7 +1362,7 @@
                   "x": 0.6668,
                   "y": 0.5741,
                   "room": "Second Floor Right Corridor",
-                  "image": "Images/Cursed/BrownstoneRestricted/2FRight/schoolrestrictedmirror.jpg"
+                  "image": "Images/Cursed/BrownstoneRestricted/2FRight/schoolrestrictedbench.jpg"
                 },
                 {
                   "kind": "cursed",
@@ -1276,7 +1370,7 @@
                   "x": 0.6266,
                   "y": 0.5751,
                   "room": "Second Floor Right Corridor",
-                  "image": "Images/Cursed/BrownstoneRestricted/2FRight/schoolrestrictedmonkeypaw.jpg"
+                  "image": "Images/Cursed/BrownstoneRestricted/2FRight/schoolrestrictedbench.jpg"
                 },
                 {
                   "kind": "cursed",
@@ -1284,7 +1378,7 @@
                   "x": 0.5903,
                   "y": 0.5763,
                   "room": "Second Floor Right Corridor",
-                  "image": "Images/Cursed/BrownstoneRestricted/2FRight/schoolrestrictedmusicbox.jpg"
+                  "image": "Images/Cursed/BrownstoneRestricted/2FRight/schoolrestrictedbench.jpg"
                 },
                 {
                   "kind": "cursed",
@@ -1292,7 +1386,7 @@
                   "x": 0.6471,
                   "y": 0.5741,
                   "room": "Second Floor Right Corridor",
-                  "image": "Images/Cursed/BrownstoneRestricted/2FRight/schoolrestrictedtarot.jpg"
+                  "image": "Images/Cursed/BrownstoneRestricted/2FRight/schoolrestrictedbench.jpg"
                 },
                 {
                   "kind": "cursed",
@@ -1300,7 +1394,7 @@
                   "x": 0.6064,
                   "y": 0.5763,
                   "room": "Second Floor Right Corridor",
-                  "image": "Images/Cursed/BrownstoneRestricted/2FRight/schoolrestrictedvoodoo.jpg"
+                  "image": "Images/Cursed/BrownstoneRestricted/2FRight/schoolrestrictedbench.jpg"
                 }
               ]
             },
@@ -1328,7 +1422,115 @@
       "overview": "Images/MapOverview/mapleoverview.jpg",
       "cursedFolder": "Images/Cursed/MapleLodge",
       "cursedStem": "maplelodge",
-      "floors": []
+      "floors": [
+        {
+          "name": "Ground",
+          "plan": "Images/Plans/maple-ground.png",
+          "markers": [
+            {
+              "kind": "powerbox",
+              "item": "Power Box",
+              "x": 0.4744,
+              "y": 0.7867,
+              "room": "Staff Storage Area",
+              "image": ""
+            },
+            {
+              "kind": "powerbox",
+              "item": "Power Box",
+              "x": 0.3562,
+              "y": 0.4985,
+              "room": "Campsite B",
+              "image": ""
+            },
+            {
+              "kind": "powerbox",
+              "item": "Power Box",
+              "x": 0.5442,
+              "y": 0.5033,
+              "room": "Campsite B",
+              "image": ""
+            },
+            {
+              "kind": "powerbox",
+              "item": "Power Box",
+              "x": 0.7887,
+              "y": 0.3712,
+              "room": "Pier",
+              "image": ""
+            },
+            {
+              "kind": "powerbox",
+              "item": "Power Box",
+              "x": 0.2469,
+              "y": 0.4024,
+              "room": "male toilets",
+              "image": ""
+            },
+            {
+              "kind": "cursed",
+              "item": "Ouija Board",
+              "x": 0.1654,
+              "y": 0.4104,
+              "room": "Cleaning Closet",
+              "image": "Images/Cursed/MapleLodge/maplelodgeboard.jpg"
+            },
+            {
+              "kind": "cursed",
+              "item": "Haunted Mirror",
+              "x": 0.3447,
+              "y": 0.6327,
+              "room": "Reception Building",
+              "image": "Images/Cursed/MapleLodge/maplelodgemirror.jpg"
+            },
+            {
+              "kind": "cursed",
+              "item": "Monkey Paw",
+              "x": 0.5102,
+              "y": 0.5253,
+              "room": "Staff Storage Area",
+              "image": "Images/Cursed/MapleLodge/maplelodgemonkeypaw.jpg"
+            },
+            {
+              "kind": "cursed",
+              "item": "Music Box",
+              "x": 0.3687,
+              "y": 0.3128,
+              "room": "Campfire B",
+              "image": "Images/Cursed/MapleLodge/maplelodgemusicbox.jpg"
+            },
+            {
+              "kind": "cursed",
+              "item": "Summoning Circle",
+              "x": 0.7474,
+              "y": 0.5093,
+              "room": "Cabin Kitchen",
+              "image": "Images/Cursed/MapleLodge/maplelodgesummoningcircle.jpg"
+            },
+            {
+              "kind": "cursed",
+              "item": "Tarot Cards",
+              "x": 0.6929,
+              "y": 0.2481,
+              "room": "Picnic Area",
+              "image": "Images/Cursed/MapleLodge/maplelodgetarot.jpg"
+            },
+            {
+              "kind": "cursed",
+              "item": "Voodoo Doll",
+              "x": 0.1937,
+              "y": 0.6117,
+              "room": "Campsite A",
+              "image": "Images/Cursed/MapleLodge/maplelodgevoodoo.jpg"
+            }
+          ]
+        },
+        {
+          "name": "First Floor",
+          "plan": "Images/Plans/maple-firstfloor.png",
+          "markers": []
+        }
+      ]
     },
     {
       "name": "Point Hope",
@@ -1388,7 +1590,7 @@
           ]
         },
         {
-          "name": "3rd  Floor",
+          "name": "3rd Floor",
           "plan": "Images/Plans/hope-3rdfloor.png",
           "markers": [
             {
@@ -1410,7 +1612,7 @@
           ]
         },
         {
-          "name": "4th  Floor",
+          "name": "4th Floor",
           "plan": "Images/Plans/hope-4thfloor.png",
           "markers": [
             {
@@ -1613,23 +1815,422 @@
       "versions": [
         {
           "name": "Courtyard",
-          "floors": []
+          "floors": [
+            {
+              "name": "Ground",
+              "plan": "Images/Plans/meadowsrestricted-courtyard-ground.png",
+              "markers": [
+                {
+                  "kind": "powerbox",
+                  "item": "Power Box",
+                  "x": 0.5243,
+                  "y": 0.8025,
+                  "room": "Foyer",
+                  "image": ""
+                },
+                {
+                  "kind": "powerbox",
+                  "item": "Power Box",
+                  "x": 0.5457,
+                  "y": 0.4456,
+                  "room": "Courtyard",
+                  "image": ""
+                },
+                {
+                  "kind": "powerbox",
+                  "item": "Power Box",
+                  "x": 0.7506,
+                  "y": 0.5436,
+                  "room": "Utility Room",
+                  "image": ""
+                },
+                {
+                  "kind": "cursed",
+                  "item": "Summoning Circle",
+                  "x": 0.6618,
+                  "y": 0.5221,
+                  "room": "Chapel",
+                  "image": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg"
+                },
+                {
+                  "kind": "cursed",
+                  "item": "Tarot Cards",
+                  "x": 0.655,
+                  "y": 0.5371,
+                  "room": "Chapel",
+                  "image": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg"
+                },
+                {
+                  "kind": "cursed",
+                  "item": "Haunted Mirror",
+                  "x": 0.6653,
+                  "y": 0.5376,
+                  "room": "Chapel",
+                  "image": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg"
+                },
+                {
+                  "kind": "cursed",
+                  "item": "Ouija Board",
+                  "x": 0.6528,
+                  "y": 0.5193,
+                  "room": "Chapel",
+                  "image": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg"
+                },
+                {
+                  "kind": "cursed",
+                  "item": "Monkey Paw",
+                  "x": 0.6879,
+                  "y": 0.5277,
+                  "room": "Chapel",
+                  "image": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg"
+                },
+                {
+                  "kind": "cursed",
+                  "item": "Music Box",
+                  "x": 0.6701,
+                  "y": 0.511,
+                  "room": "Chapel",
+                  "image": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg"
+                },
+                {
+                  "kind": "cursed",
+                  "item": "Voodoo Doll",
+                  "x": 0.6751,
+                  "y": 0.5251,
+                  "room": "Chapel",
+                  "image": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg"
+                }
+              ]
+            }
+          ]
         },
         {
           "name": "Female Wing",
-          "floors": []
+          "floors": [
+            {
+              "name": "Ground",
+              "plan": "Images/Plans/meadowsrestricted-femalewing-ground.png",
+              "markers": [
+                {
+                  "kind": "powerbox",
+                  "item": "Power Box",
+                  "x": 0.1594,
+                  "y": 0.6127,
+                  "room": "Foyer",
+                  "image": ""
+                },
+                {
+                  "kind": "cursed",
+                  "item": "Summoning Circle",
+                  "x": 0.3003,
+                  "y": 0.3252,
+                  "room": "Chapel",
+                  "image": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg"
+                },
+                {
+                  "kind": "cursed",
+                  "item": "Tarot Cards",
+                  "x": 0.2934,
+                  "y": 0.3405,
+                  "room": "Chapel",
+                  "image": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg"
+                },
+                {
+                  "kind": "cursed",
+                  "item": "Haunted Mirror",
+                  "x": 0.3039,
+                  "y": 0.341,
+                  "room": "Chapel",
+                  "image": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg"
+                },
+                {
+                  "kind": "cursed",
+                  "item": "Ouija Board",
+                  "x": 0.2912,
+                  "y": 0.3223,
+                  "room": "Chapel",
+                  "image": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg"
+                },
+                {
+                  "kind": "cursed",
+                  "item": "Monkey Paw",
+                  "x": 0.3271,
+                  "y": 0.331,
+                  "room": "Chapel",
+                  "image": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg"
+                },
+                {
+                  "kind": "cursed",
+                  "item": "Music Box",
+                  "x": 0.3088,
+                  "y": 0.3137,
+                  "room": "Chapel",
+                  "image": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg"
+                },
+                {
+                  "kind": "cursed",
+                  "item": "Voodoo Doll",
+                  "x": 0.314,
+                  "y": 0.3283,
+                  "room": "Chapel",
+                  "image": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg"
+                }
+              ]
+            }
+          ]
         },
         {
           "name": "Hospital",
-          "floors": []
+          "floors": [
+            {
+              "name": "Basement",
+              "plan": "Images/Plans/meadowsrestricted-hospital-basement.png",
+              "markers": [
+                {
+                  "kind": "powerbox",
+                  "item": "Power Box",
+                  "x": 0.7544,
+                  "y": 0.4965,
+                  "room": "Basement Corridor",
+                  "image": ""
+                }
+              ]
+            },
+            {
+              "name": "Ground",
+              "plan": "Images/Plans/meadowsrestricted-hospital-ground.png",
+              "markers": [
+                {
+                  "kind": "powerbox",
+                  "item": "Power Box",
+                  "x": 0.7377,
+                  "y": 0.6062,
+                  "room": "Foyer",
+                  "image": ""
+                },
+                {
+                  "kind": "cursed",
+                  "item": "Summoning Circle",
+                  "x": 0.8747,
+                  "y": 0.3267,
+                  "room": "Chapel",
+                  "image": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg"
+                },
+                {
+                  "kind": "cursed",
+                  "item": "Tarot Cards",
+                  "x": 0.8679,
+                  "y": 0.3415,
+                  "room": "Chapel",
+                  "image": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg"
+                },
+                {
+                  "kind": "cursed",
+                  "item": "Haunted Mirror",
+                  "x": 0.8783,
+                  "y": 0.342,
+                  "room": "Chapel",
+                  "image": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg"
+                },
+                {
+                  "kind": "cursed",
+                  "item": "Ouija Board",
+                  "x": 0.8659,
+                  "y": 0.3238,
+                  "room": "Chapel",
+                  "image": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg"
+                },
+                {
+                  "kind": "cursed",
+                  "item": "Monkey Paw",
+                  "x": 0.9007,
+                  "y": 0.3323,
+                  "room": "Chapel",
+                  "image": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg"
+                },
+                {
+                  "kind": "cursed",
+                  "item": "Music Box",
+                  "x": 0.883,
+                  "y": 0.3155,
+                  "room": "Chapel",
+                  "image": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg"
+                },
+                {
+                  "kind": "cursed",
+                  "item": "Voodoo Doll",
+                  "x": 0.888,
+                  "y": 0.3295,
+                  "room": "Chapel",
+                  "image": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg"
+                }
+              ]
+            }
+          ]
         },
         {
           "name": "Male Wing",
-          "floors": []
+          "floors": [
+            {
+              "name": "Ground",
+              "plan": "Images/Plans/meadowsrestricted-malewing-ground.png",
+              "markers": [
+                {
+                  "kind": "powerbox",
+                  "item": "Power Box",
+                  "x": 0.7449,
+                  "y": 0.6047,
+                  "room": "Foyer",
+                  "image": ""
+                },
+                {
+                  "kind": "cursed",
+                  "item": "Summoning Circle",
+                  "x": 0.8763,
+                  "y": 0.3368,
+                  "room": "Chapel",
+                  "image": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg"
+                },
+                {
+                  "kind": "cursed",
+                  "item": "Tarot Cards",
+                  "x": 0.8698,
+                  "y": 0.3511,
+                  "room": "Chapel",
+                  "image": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg"
+                },
+                {
+                  "kind": "cursed",
+                  "item": "Haunted Mirror",
+                  "x": 0.8796,
+                  "y": 0.3516,
+                  "room": "Chapel",
+                  "image": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg"
+                },
+                {
+                  "kind": "cursed",
+                  "item": "Ouija Board",
+                  "x": 0.8677,
+                  "y": 0.3341,
+                  "room": "Chapel",
+                  "image": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg"
+                },
+                {
+                  "kind": "cursed",
+                  "item": "Monkey Paw",
+                  "x": 0.9013,
+                  "y": 0.3422,
+                  "room": "Chapel",
+                  "image": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg"
+                },
+                {
+                  "kind": "cursed",
+                  "item": "Music Box",
+                  "x": 0.8842,
+                  "y": 0.3261,
+                  "room": "Chapel",
+                  "image": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg"
+                },
+                {
+                  "kind": "cursed",
+                  "item": "Voodoo Doll",
+                  "x": 0.8891,
+                  "y": 0.3397,
+                  "room": "Chapel",
+                  "image": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg"
+                }
+              ]
+            }
+          ]
         },
         {
           "name": "Restricted",
-          "floors": []
+          "floors": [
+            {
+              "name": "Basement",
+              "plan": "Images/Plans/meadowsrestricted-restricted-basement.png",
+              "markers": [
+                {
+                  "kind": "powerbox",
+                  "item": "Power Box",
+                  "x": 0.2676,
+                  "y": 0.4903,
+                  "room": "Basement Corridor",
+                  "image": ""
+                }
+              ]
+            },
+            {
+              "name": "Ground",
+              "plan": "Images/Plans/meadowsrestricted-restricted-ground.png",
+              "markers": [
+                {
+                  "kind": "powerbox",
+                  "item": "Power Box",
+                  "x": 0.2489,
+                  "y": 0.6111,
+                  "room": "Foyer",
+                  "image": ""
+                },
+                {
+                  "kind": "cursed",
+                  "item": "Summoning Circle",
+                  "x": 0.4001,
+                  "y": 0.3032,
+                  "room": "Chapel",
+                  "image": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg"
+                },
+                {
+                  "kind": "cursed",
+                  "item": "Tarot Cards",
+                  "x": 0.3926,
+                  "y": 0.3196,
+                  "room": "Chapel",
+                  "image": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg"
+                },
+                {
+                  "kind": "cursed",
+                  "item": "Haunted Mirror",
+                  "x": 0.404,
+                  "y": 0.3202,
+                  "room": "Chapel",
+                  "image": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg"
+                },
+                {
+                  "kind": "cursed",
+                  "item": "Ouija Board",
+                  "x": 0.3903,
+                  "y": 0.3001,
+                  "room": "Chapel",
+                  "image": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg"
+                },
+                {
+                  "kind": "cursed",
+                  "item": "Monkey Paw",
+                  "x": 0.4288,
+                  "y": 0.3093,
+                  "room": "Chapel",
+                  "image": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg"
+                },
+                {
+                  "kind": "cursed",
+                  "item": "Music Box",
+                  "x": 0.4093,
+                  "y": 0.291,
+                  "room": "Chapel",
+                  "image": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg"
+                },
+                {
+                  "kind": "cursed",
+                  "item": "Voodoo Doll",
+                  "x": 0.4147,
+                  "y": 0.3065,
+                  "room": "Chapel",
+                  "image": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1740,7 +2341,116 @@
       "cursedFolder": "Images/Cursed/SunnyMeadows",
       "sharedCursedSpot": true,
       "sharedCursedImage": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg",
-      "floors": []
+      "floors": [
+        {
+          "name": "Basement",
+          "plan": "Images/Plans/meadows-basement.png",
+          "markers": [
+            {
+              "kind": "powerbox",
+              "item": "Power Box",
+              "x": 0.497,
+              "y": 0.6344,
+              "room": "Basement Corridor",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "name": "Ground",
+          "plan": "Images/Plans/meadows-ground.png",
+          "markers": [
+            {
+              "kind": "powerbox",
+              "item": "Power Box",
+              "x": 0.4868,
+              "y": 0.7006,
+              "room": "Foyer",
+              "image": ""
+            },
+            {
+              "kind": "powerbox",
+              "item": "Power Box",
+              "x": 0.4997,
+              "y": 0.486,
+              "room": "Courtyard",
+              "image": ""
+            },
+            {
+              "kind": "powerbox",
+              "item": "Power Box",
+              "x": 0.6229,
+              "y": 0.5449,
+              "room": "Utility Room",
+              "image": ""
+            },
+            {
+              "kind": "powerbox",
+              "item": "Power Box",
+              "x": 0.5379,
+              "y": 0.2763,
+              "room": "Boiler House",
+              "image": ""
+            },
+            {
+              "kind": "cursed",
+              "item": "Summoning Circle",
+              "x": 0.5695,
+              "y": 0.532,
+              "room": "Chapel",
+              "image": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg"
+            },
+            {
+              "kind": "cursed",
+              "item": "Tarot Cards",
+              "x": 0.5654,
+              "y": 0.541,
+              "room": "Chapel",
+              "image": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg"
+            },
+            {
+              "kind": "cursed",
+              "item": "Haunted Mirror",
+              "x": 0.5716,
+              "y": 0.5413,
+              "room": "Chapel",
+              "image": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg"
+            },
+            {
+              "kind": "cursed",
+              "item": "Ouija Board",
+              "x": 0.5641,
+              "y": 0.5303,
+              "room": "Chapel",
+              "image": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg"
+            },
+            {
+              "kind": "cursed",
+              "item": "Monkey Paw",
+              "x": 0.5852,
+              "y": 0.5354,
+              "room": "Chapel",
+              "image": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg"
+            },
+            {
+              "kind": "cursed",
+              "item": "Music Box",
+              "x": 0.5745,
+              "y": 0.5253,
+              "room": "Chapel",
+              "image": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg"
+            },
+            {
+              "kind": "cursed",
+              "item": "Voodoo Doll",
+              "x": 0.5775,
+              "y": 0.5338,
+              "room": "Chapel",
+              "image": "Images/Cursed/SunnyMeadows/SunnyMeadowsAll.jpg"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
