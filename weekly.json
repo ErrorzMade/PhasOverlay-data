@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "date": "2026-09-21",
-  "title": "Survival of the Fittest",
+  "date": "2026-09-28",
+  "title": "Primitive",
   "friendlyGhost": false,
   "ghostSpeed": 1,
-  "evidenceGiven": 0,
+  "evidenceGiven": 3,
   "mapSize": "small",
-  "huntDuration": "high"
+  "huntDuration": "low"
 }
