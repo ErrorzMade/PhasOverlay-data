@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "dataVersion": 5,
-  "generated": "2026-09-29T22:47:01Z",
+  "dataVersion": 6,
+  "generated": "2026-09-29T22:59:21Z",
   "files": [
     {
       "path": "maps.json",
       "size": 79047,
-      "sha256": "08b2f4d9bddf904ff5f8f765424339ba3864e24d1527e0db541ecf1ffc4203cb"
+      "sha256": "159a4df1903089152783efc8d72be93e5390293b27d89ecef72029ec0111380a"
     },
     {
       "path": "Images/MapOverview/edgefieldoverview.jpg",
