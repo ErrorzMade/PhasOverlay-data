@@ -17,7 +17,8 @@
         "slow"
       ],
       "canHunt": [
-        "normal"
+        "normal",
+        "late"
       ],
       "tell": "TELLS\n• Reaches max LOS speed in 8.667s instead of the standard 13s.\n• Hunt immediately ends if the ghost enters an official hiding spot that contains a detected player.\n\nBEHAVIORS\n• If a hunt ends when the ghost enters the same official hiding spot as the player, the ghost will walk towards that player's location at the start of the next hunt, even during the grace period.",
       "speedGraph": {
@@ -34,7 +35,7 @@
         {
           "type": "mark",
           "prefix": "Tell (Definitive): ",
-          "text": "If the ghost moves through salt or a motion sensor during the grace period before the ghost is actually visible, it's an Aswang"
+          "text": "If the ghost moves through salt or a motion sensor during the grace period before the ghost is actually visible, it's an Aswang."
         }
       ]
     },
@@ -90,6 +91,7 @@
       ],
       "canHunt": [
         "early",
+        "normal",
         "late"
       ],
       "tell": "TELLS\n• Can only be female, ghost model and ghost name will reflect this.\n• Hunt speed and sanity are completely determined by nearby player movement.\n• Can hunt at 65% (and moves at 2.25m/s) if nearest player is walking within 10m.\n\nBEHAVIORS\n• Drops to 1.2m/s and delays hunt until 45% if the nearby player stands still.\n• If ghost is 10m or further, it defaults to standard ghost speed 1.7m/s.\n• Has LOS speed-up while greater than 10m from any player. Once within 10m, LOS speed-up is no longer applied.",
@@ -118,7 +120,8 @@
         "fast"
       ],
       "canHunt": [
-        "normal"
+        "normal",
+        "late"
       ],
       "tell": "TELLS\n• Base speed of 3.0m/s with no line-of-sight speed-up.\n• Speed decreases by 0.1m/s per item thrown by players (alive or dead).\n\nBEHAVIORS\n• Base speed returns to 3.0m/s after each hunt attempt.\n• Can reach a minimum speed of 0.4m/s if 26+ items are moved.",
       "speedGraph": {
@@ -254,7 +257,8 @@
         "normal"
       ],
       "canHunt": [
-        "normal"
+        "normal",
+        "late"
       ],
       "tell": "TELLS\n• DOTS only appear on a video camera and will not show if a player is in the same room.\n• Cannot change favorite rooms.\n\nBEHAVIORS\n• Less likely to roam and cannot long roam, keeping it within its room more often.\n• Will enter DOTS state more frequently than other ghosts.\n\nEVIDENCE\n• Guaranteed DOTS on difficulties with at least 1 evidence given.",
       "behaviors": [
@@ -288,7 +292,8 @@
         "fast"
       ],
       "canHunt": [
-        "normal"
+        "normal",
+        "late"
       ],
       "tell": "TELLS\n• Moves faster in colder rooms and slower in warm rooms during hunts.\n• Will have visible freezing breath during hunts when the breaker is off/broken.\n\nBEHAVIORS\n• Cannot turn on the breaker and is more likely to turn it off.\n• Does not speed up in line-of-sight.\n\nEVIDENCE\n• Guaranteed freezing on difficulties with at least 1 evidence given.",
       "speedGraph": {
@@ -330,7 +335,8 @@
         "fast"
       ],
       "canHunt": [
-        "normal"
+        "normal",
+        "late"
       ],
       "tell": "TELLS\n• With the breaker on, it will speed up to 2.5m/s if a player is in LOS and far away.\n• The Jinn cannot turn off the breaker.\n\nABILITIES\n• With the breaker on, can drop a nearby player’s sanity by 25%, leaving EMF 2 or 5 at the breaker.\n\nHUNT SPEED\n• Standard 1.7m/s otherwise. LOS speed-up is still accrued in the background while ability is active.",
       "behaviors": [
@@ -359,7 +365,8 @@
       "canHunt": [
         "veryearly",
         "early",
-        "normal"
+        "normal",
+        "late"
       ],
       "tell": "TELLS\n• Is completely blind; detects players exclusively via sound and electronics.\n• Has Pseudo-LOS: builds speed up to 2.21m/s when traveling to detected footsteps.\n\nBEHAVIORS\n• Sprinting in the same room as a Kormos can cause it to hunt up to 70% average sanity.\n• Will not do 'Ghost Mist' nor 'Chasing' ghost events.\n\nHUNT SPEED\n• 1.7m/s otherwise. Accumulated pseudo-LOS speed transfers between states.",
       "speedGraph": {
@@ -391,6 +398,7 @@
       ],
       "canHunt": [
         "early",
+        "normal",
         "late"
       ],
       "tell": "TELLS\n• Hunts at 60% average sanity if the lights are off, 40% if the lights are on.\n• Prefers turning off lights and light bursting events; cannot turn on lights natively.\n\nBEHAVIORS\n• More likely to long roam when lights are on in its current room.\n• Only ghost that cannot flicker the lights with EMF 2 at the switch.\n\nABILITIES\n• Has a chance to immediately turn off a light switch that a player has turned on within 4m.\n• Can use its ability during events, making it the only ghost that can interact with a switch during an event.",
@@ -425,7 +433,8 @@
         "fast"
       ],
       "canHunt": [
-        "normal"
+        "normal",
+        "late"
       ],
       "tell": "TELLS\n• Speed increases drastically as the average team sanity decreases.\n• Curses players who hear it on the paramic or spirit box, causing faster passive sanity drain.\n\nHUNT SPEED & BEHAVIOR\n• Incense blindness duration during hunts is increased from 5s to 7s.\n• Can reach a massive speed of 3.71 m/s when in continuous LOS.\n\nEVIDENCE\n• Guaranteed spirit box on difficulties with at least 1 evidence given.",
       "speedGraph": {
@@ -461,7 +470,8 @@
         "normal"
       ],
       "canHunt": [
-        "normal"
+        "normal",
+        "late"
       ],
       "tell": "TELLS\n• Footsteps and vocals run completely silent once past a 12 meter distance during a hunt.\n• Makes sounds through the parabolic microphone / sound recorder more frequently than other ghosts.",
       "behaviors": [
@@ -493,7 +503,8 @@
         "normal"
       ],
       "canHunt": [
-        "normal"
+        "normal",
+        "late"
       ],
       "tell": "TELLS\n• Will shapeshift its model for a single blink during hunts at least once per standard hunt.\n• Can leave unique 6-fingered, double, or 5-finger prints.\n\nBEHAVIORS\n• Has a 25% chance to completely hide ultraviolet evidence.\n• 25% chance to miss a footstep during events.\n\nABILITIES\n• Can make fingerprints disappear twice as fast on the map.\n\nEVIDENCE\n• Guaranteed ultraviolet on difficulties with at least 1 evidence given.",
       "behaviors": [
@@ -532,6 +543,7 @@
       ],
       "canHunt": [
         "early",
+        "normal",
         "late"
       ],
       "tell": "TELLS\n• Will shift between a 'calm' state (10% sanity) and 'aggressive' state (65% sanity) every 2 minutes.\n• Faster when aggressive (1.96m/s), slower when calm (1.45m/s).\n\nBEHAVIORS\n• Hunt duration is decreased by 20% when started in an aggressive state.\n• Can change states dynamically during a hunt.",
@@ -563,7 +575,8 @@
         "normal"
       ],
       "canHunt": [
-        "normal"
+        "normal",
+        "late"
       ],
       "tell": "TELLS\n• Blinks more frequently during hunts, making it highly visible.\n• Cannot do Ghost Mist / Airball event.\n\nBEHAVIORS\n• Drains 20% sanity during events instead of the standard 10%.\n• More active around multiple people.\n• More likely to appear as full ghost model during events.",
       "behaviors": [
@@ -634,7 +647,8 @@
         "normal"
       ],
       "canHunt": [
-        "normal"
+        "normal",
+        "late"
       ],
       "tell": "TELLS\n• Blinks visibly slower during a hunt, remaining invisible for longer periods.\n• Taking a photo or video of the ghost will cause it to immediately disappear.\n\nBEHAVIORS\n• Will not appear in 'Ghost' photos or 'Ghost' videos.\n• Player will lose 0.5% sanity /s while in heartbeat range of the ghost during hunts and events.\n\nABILITIES\n• Can roam toward a random player, leaving EMF 2 at the location where it wanders to.",
       "behaviors": [
@@ -665,7 +679,8 @@
         "normal"
       ],
       "canHunt": [
-        "normal"
+        "normal",
+        "late"
       ],
       "tell": "TELLS\n• During hunts, Poltergeists will throw an item every 0.5s with increased force.\n• Poltergeist Explosion: can throw multiple objects simultaneously, decreasing nearby sanity by 2% per item.\n\nBEHAVIORS\n• Has a higher chance to throw & interact with objects outside of hunts.\n• Only ghost that can throw an item while the ghost is in a lit room.",
       "behaviors": [
@@ -698,7 +713,8 @@
       ],
       "canHunt": [
         "early",
-        "normal"
+        "normal",
+        "late"
       ],
       "tell": "TELLS\n• Speed increases massively to 2.5m/s when near active electronic equipment.\n• Causes electronic disruption from 15m away instead of the standard 10m.\n\nBEHAVIORS\n• Can hunt at 65% sanity if near active player equipment.\n• Has a louder heartbeat sound than other ghosts.\n• Has standard LOS speed-up when not near electronics.",
       "behaviors": [
@@ -731,7 +747,8 @@
         "fast"
       ],
       "canHunt": [
-        "normal"
+        "normal",
+        "late"
       ],
       "tell": "TELLS\n• Moves incredibly fast (3.0m/s) the moment it detects a player (voice, electronics, or LOS).\n• Drops to a very slow crawl (1.0m/s) when wandering without a target.\n\nHUNT SPEED\n• Gradually slows down after reaching the player's last known location.",
       "speedGraph": {
@@ -798,7 +815,8 @@
         "normal"
       ],
       "canHunt": [
-        "normal"
+        "normal",
+        "late"
       ],
       "tell": "TELLS\n• Will wait 180s after being incensed before attempting to hunt again, instead of the standard 90s.",
       "behaviors": [
@@ -904,7 +922,8 @@
         "fast"
       ],
       "canHunt": [
-        "normal"
+        "normal",
+        "late"
       ],
       "tell": "TELLS\n• Can do 2 interactions at the same time, one within its standard radius and the other in its extended radius.\n• Ghost speed during hunts will be either 1.5m/s (Main) or 1.9m/s (Decoy).\n\nBEHAVIORS\n• Triggering motion sensors, stepping in salt, and spirit box responses only occur at its physical main location.",
       "speedGraph": {
@@ -935,7 +954,8 @@
         "normal"
       ],
       "canHunt": [
-        "normal"
+        "normal",
+        "late"
       ],
       "tell": "TELLS\n• Will not touch nor interact with salt in any way.\n• Can teleport to a random player, leaving EMF 2 or EMF 5 at their new location.\n\nABILITIES\n• Will not be slowed down by tier 3 salt during a hunt.\n• Walks back to their favorite room after teleporting.",
       "behaviors": [
@@ -968,7 +988,8 @@
       "canHunt": [
         "veryearly",
         "early",
-        "normal"
+        "normal",
+        "late"
       ],
       "tell": "TELLS\n• Hearing/detection distance is 2.5m and less during hunts.\n• Talking in the same room as a Yokai greatly angers it, causing it to hunt up to 80% average sanity.\n\nBEHAVIORS\n• Will start events at 2.5m from the music box instead of the standard 5m.\n• Ends music box event when the head of the ghost is 0.5m away from the music box instead of the standard 1m.\n• More active when talking near it.",
       "behaviors": [
@@ -994,7 +1015,8 @@
         "normal"
       ],
       "canHunt": [
-        "normal"
+        "normal",
+        "late"
       ],
       "tell": "TELLS\n• Only ghost that can close or interact with an exit door outside of a hunt/event.\n• Incensing the ghost will trap the ghost in its room for the duration of the incense effect (90s).\n\nBEHAVIORS\n• Must fully open / shut a door when doing door interactions (outside of a hunt).\n• Cannot give DOTS evidence while under the effects of an incense.\n\nABILITIES\n• Can shut a door and drop sanity of nearby players by 15%.",
       "behaviors": [
