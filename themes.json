@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "themes": {
+    "crimsoneye": {
+      "name": "Crimson Eye",
+      "group": "events",
+      "colors": {
+        "accent": "#FF7A4D",
+        "background": "#120404",
+        "panel": "#1F0807",
+        "border": "#401010",
+        "text": "#F5DEDA",
+        "textDim": "#BF928C"
+      },
+      "gradients": {
+        "windowBackground": ["#F20C0202", "#F2280505", "#F20E0202"],
+        "panelBackground": ["#FF100202", "#FF2E0606", "#FF0E0202"],
+        "accentFill": ["#FF6E0808", "#FFC4160F", "#FFFF3B2F"],
+        "outline": ["#FF3A0505", "#FFB3120D", "#FFFF5A45", "#FFB3120D", "#FF3A0505"],
+        "divider": ["#00800A0A", "#99D41F17", "#00800A0A"],
+        "headline": ["#FFFF8A60", "#FFE0281C"]
+      }
+    }
+  }
+}
