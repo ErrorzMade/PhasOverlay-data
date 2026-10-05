@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "date": "2026-09-28",
-  "title": "Primitive",
+  "date": "2026-10-05",
+  "title": "Vulnerable",
   "friendlyGhost": false,
   "ghostSpeed": 1,
   "evidenceGiven": 3,
   "mapSize": "small",
-  "huntDuration": "low"
+  "huntDuration": "high"
 }
