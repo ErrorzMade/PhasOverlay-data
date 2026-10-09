@@ -368,10 +368,10 @@
         "normal",
         "late"
       ],
-      "tell": "TELLS\n• Is completely blind; detects players exclusively via sound and electronics.\n• Has Pseudo-LOS: builds speed up to 2.21m/s when traveling to detected footsteps.\n\nBEHAVIORS\n• Sprinting in the same room as a Kormos can cause it to hunt up to 70% average sanity.\n• Will not do 'Ghost Mist' nor 'Chasing' ghost events.\n\nHUNT SPEED\n• 1.7m/s otherwise. Accumulated pseudo-LOS speed transfers between states.",
+      "tell": "TELLS\n• Is completely blind; detects players exclusively via sound and electronics.\n• Only builds line-of-sight speed while a player is moving within 5m of it.\n\nBEHAVIORS\n• Sprinting in the same room as a Kormos can cause it to hunt up to 70% average sanity.\n• Will not do 'Ghost Mist' nor 'Chasing' ghost events.\n\nHUNT SPEED\n• 1.7m/s normally, up to 2.81m/s with line-of-sight speed.\n• 2.21m/s toward a player it detects more than 5m away. Speed it has built up carries over, up to 3.65m/s.",
       "speedGraph": {
         "base": 1.7,
-        "max": 2.21,
+        "max": 2.805,
         "timeToMax": 13
       },
       "behaviors": [
@@ -925,10 +925,10 @@
         "normal",
         "late"
       ],
-      "tell": "TELLS\n• Can do 2 interactions at the same time, one within its standard radius and the other in its extended radius.\n• Ghost speed during hunts will be either 1.5m/s (Main) or 1.9m/s (Decoy).\n\nBEHAVIORS\n• Triggering motion sensors, stepping in salt, and spirit box responses only occur at its physical main location.",
+      "tell": "TELLS\n• Can do 2 interactions at the same time, one within its standard radius and the other in its extended radius.\n• Ghost speed during hunts will be either 1.5m/s (Main) or 1.9m/s (Decoy).\n\nBEHAVIORS\n• Triggering motion sensors, stepping in salt, and spirit box responses only occur at its physical main location.\n\nHUNT SPEED\n• With line of sight both speed up like a normal ghost, then keep their difference: up to 2.61m/s (Main) and 3.01m/s (Decoy).",
       "speedGraph": {
         "base": 1.5,
-        "max": 2.475,
+        "max": 2.605,
         "timeToMax": 13
       },
       "behaviors": [
