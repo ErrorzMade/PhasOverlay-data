@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "date": "2026-10-05",
-  "title": "Vulnerable",
+  "date": "2026-10-16",
+  "title": "Missed Delivery",
   "friendlyGhost": false,
   "ghostSpeed": 1,
   "evidenceGiven": 3,
-  "mapSize": "small",
+  "mapSize": "large",
   "huntDuration": "high"
 }
