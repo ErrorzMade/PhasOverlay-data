@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "date": "2026-10-16",
-  "title": "Missed Delivery",
+  "date": "2026-10-19",
+  "title": "Audio only",
   "friendlyGhost": false,
   "ghostSpeed": 1,
   "evidenceGiven": 3,
-  "mapSize": "large",
-  "huntDuration": "high"
+  "mapSize": "medium",
+  "huntDuration": "low"
 }
