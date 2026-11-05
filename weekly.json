@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "date": "2026-10-27",
-  "title": "Technophilia",
+  "date": "2026-11-02",
+  "title": "No Evidence",
   "friendlyGhost": false,
   "ghostSpeed": 1,
-  "evidenceGiven": 3,
+  "evidenceGiven": 0,
   "mapSize": "medium",
   "huntDuration": "high"
 }
