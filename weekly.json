@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "date": "2026-11-02",
-  "title": "No Evidence",
+  "date": "2026-11-09",
+  "title": "The Apocalypse Draws Near",
   "friendlyGhost": false,
-  "ghostSpeed": 1,
+  "ghostSpeed": 1.5,
   "evidenceGiven": 0,
   "mapSize": "medium",
   "huntDuration": "high"
